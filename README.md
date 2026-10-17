@@ -1,5 +1,7 @@
 # Euler Vacuum Seed
 
+**DOI: [10.5281/zenodo.23428097](https://doi.org/10.5281/zenodo.23428097)** (v8 preprint record)
+
 Frozen blind-tested galactic dynamics + vacuum-seed cosmology: papers, data, and replication package.
 
 A conditional cosmological framework (Euler Vacuum Seed) with a frozen zero-parameter galactic partition law, blind-validated on SPARC (126/160, p = 6.3e-14, 7.2σ) and LITTLE THINGS dwarfs (per-radius, 337 pts), with full failure tables, intrinsic-scatter discipline, per-point residuals, and a frozen parameter set. Includes the quantum companion (Φ_q, g−2), the Koide audit, the kill series, and a step-by-step replication protocol.
