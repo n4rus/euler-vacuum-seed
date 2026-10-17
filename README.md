@@ -32,8 +32,8 @@ Data: public SPARC/VizieR J/AJ/152/157.
 
 - Frozen flat form vs Vbar-only: **126/160** unseen galaxies, p = 6.3e-14 (7.2σ).
 - Radial Yukawa suppression (λ = 1 kpc, picked once): blind RMSE **9.45** vs 10.02, wins **133/160** — disclosed as quasi-blind (form family selected on the same trainval).
-- LITTLE THINGS per-radius (independent sky, pre-registered form, no refit): Yukawa **13.0** vs flat 14.9 — same direction.
-- vs RAR (SPARC-full): **10.43 vs 12.67**; on LITTLE THINGS dwarfs RAR wins (11.6 vs 13.0) — sample-dependent contest, both directions filed.
+- LITTLE THINGS per-radius (independent sky, pre-registered form, no refit; eV-units convention): Yukawa **13.88** < flat 15.09 < Vbar 21.19 (superset re-run n=1500/22; filed subset 13.0/14.9/19.2); eV-chi Yukawa **4.00** first (vs flat 5.17, Vbar 6.17; RAR 4.71).
+- vs RAR (SPARC-full): **10.32 vs 12.67** (eV-units, frozen L^0.525; 10.43 was pre-freeze — corrected 2026-10-17). On LITTLE THINGS the earlier internal RAR advantage (11.6) did **not** reproduce with the standard RAR form (15.93 vs Yukawa 13.88) — corrected same date.
 - vs per-galaxy NFW: **0/30 losses kept** (350 vs 4 params).
 - All comparisons hold modulo ~24 km/s intrinsic scatter (median): the law fits exactly nowhere; it points the right direction.
 - Quantum companion: e −1.50%, μ +1.38%, blind τ +1.34% (one global constant, no QED loops).
