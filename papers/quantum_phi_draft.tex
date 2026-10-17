@@ -1,0 +1,47 @@
+% quantum_phi_draft.tex — standalone draft for quantum branch, designed to be \input into combined v5
+% Keep out of v4.2; join later with universe_foundations_v4_2_local.tex + euler_vacuum_seed_v3.tex
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{amsmath,amssymb}
+\usepackage{geometry}
+\usepackage{booktabs}
+\usepackage{microtype}
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage{hyperref}
+\geometry{margin=2.4cm}
+\hypersetup{colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue}
+
+\title{\textbf{Quantum Partition Draft: Same $\Phi$ Kernel with $\hbar,G$ Free}\\
+\large $a=0.525,\;b=0.242$ from SPARC $13/0.903$ as test for $g-2$ and $m_{p}/m_{e}$}
+\author{Lucas E.~J.~da Silva\\{\small Axiom Research Programme --- branch: {\tt sparc-fit/eq\_dsl\_quantum.py}, \texttt{hbar,Gq} free terminals}}
+\date{\today}
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Quantum companion to the frozen galactic partition, rewritten 2026-10-07 from filed numbers (supersedes the $\hbar,G$-evolved sketch). Same kernel, same frozen shape $a=0.525,b=0.242$: $\Phi_{q}(S_{\rm hbar},\log m/m_{P})={\rm sigmoid}(a\,S_{\rm hbar}+b\log(m/m_{P})+c_{q})$ with cosmic $k=\ln(R_{H}/l_{P})/16=8.7684$ ($R_{H}=c/H_{0}$, not fitted), per-domain $c_{q}=2.90$, one global $g-2=C_{q}\Phi_{q}$ with $C_{q}=0.001212$. Filed: electron $S=10.118$ pred $0.00114228$ vs $0.00115965$ ($-1.50\%$), muon $S=10.726$ pred $0.00118206$ vs $0.00116592$ ($+1.38\%$), blind $\tau$ $+1.34\%$; proper time $\tau=4.350{\rm e}17$s includes the $30+220+600$ km/s hierarchy, no QED loops. Bound states (H/Mu/Ps/D) honestly rejected ($1278\%$); mass ratios are identities. Status: preliminary like $13/0.903$ ---" two scales, one kernel, different $\hbar$. Code: {\tt sparc-fit/eq\_dsl\_quantum.py}.
+\end{abstract}
+
+\section{Kernel (frozen from galactic)}
+Galactic: $V=\sqrt{V_{\rm bar}^{2}+C(L)\Phi}$, $\Phi={\rm sigmoid}(a\ell_{L}+b\eta_{\rm HI}+c)$, $C(L)=2800\,L^{0.525}$; frozen blind $126/160$ ($7.2\sigma$).
+
+\section{Quantum transcription (filed)}
+Replace $\log L\to S_{\rm hbar}=\ln(m c^{2}\tau/\hbar)/k$, $f_{\rm gas}\to\log(m/m_{P})$, keep same $a,b$ frozen:
+\[
+\Phi_{q}={\rm sigmoid}(a\,S_{\rm hbar} + b\log(m/m_{P}) + c_{q}),\quad a=0.525,\;b=0.242,\;c_{q}=2.90
+\]
+\[
+g-2 = C_{q}\Phi_{q},\quad C_{q}=0.001212
+\]
+with $k=8.7684$ from the cosmic horizon. Output $n=S/2\pi\hbar\sim5{\rm e}71$ ($e$). Kill-bar test (2026-10-07): 2-loop QED gives $a_e=0.00115964$ (matches measured $0.00115965$); our pred $0.00114228$ differs by $1.50\%$ vs the $15\%$ bar ---" hint SURVIVES with $10\times$ margin. Recorded, not celebrated: margin is not confirmation. Third-prediction audit (2026-10-07): muonium HFS unreachable ---" HFS needs $|\psi(0)|^{2}$ bound-state input absent from the kernel, and $S$ is $\tau$-scheme dependent (muon lifetime gives $S=4.61$, not $10.73$). No third prediction exists; branch stays a hint.
+
+\section*{Reproducibility}
+{\tt sparc-fit/eq\_dsl\_quantum.py} (cosmic $k$, $c_{q}$, $C_{q}$), GPU batched $2000$. SPARC VizieR J/AJ/152/157. No new derivation claimed.
+
+\begin{thebibliography}{9}
+\bibitem{SPARC} Lelli et al., AJ 152,157 (2016).
+\bibitem{PDG2024} Navas, S., et al.\ (Particle Data Group). Phys.\ Rev.\ D 110, 030001 (2024).
+\end{thebibliography}
+\end{document}

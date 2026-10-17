@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this material, please cite it as below."
+type: software
+title: "Euler Vacuum Seed v8: A Frozen Galactic Predictor with Radial Suppression (Working Paper)"
+abstract: >-
+  Conditional cosmological framework with a frozen zero-parameter galactic
+  partition law, blind-tested on SPARC and LITTLE THINGS with full failure
+  tables, per-point residuals, and a frozen replication protocol; includes
+  the quantum companion (Phi_q, g-2), the Koide audit, and the kill series.
+authors:
+  - family-names: "Jaguszewski da Silva"
+    given-names: "Lucas Eduardo"
+    alias: "n4rus"
+    affiliation: "Independent researcher — Axiom Research Programme"
+version: "8.0.0"
+date-released: "2026-10-16"
+license: CC-BY-4.0
+keywords:
+  - dark matter phenomenology
+  - galaxy kinematics
+  - SPARC
+  - symbolic regression
+  - vacuum energy
+  - g-2
+  - Koide relation
